@@ -20,11 +20,13 @@
 > Example
 > 
 > ![alert](https://s4.uupload.ir/files/alert_82hb.gif)
->
-> the reasen that made me to write this was that i need to notify my self whenever a script run automaticly, so i decided to write a this.
-> my script to backup is this ```
+
+> the __reasen__ that made me to write this was that i need to notify my self whenever a script run automaticly, so i decided to write a this.
+> my script to backup is this:
+
+```
 #!/bin/bash
 alert 'backup' 'geting backup started...'
 NOW=`date`
 tar --lzma -cvf /media/hdd/personal/tmp/$NOW.tar /home
-alert 'backup' $NOW```
+alert 'backup' 'backup done'
