@@ -16,3 +16,7 @@
 > __Usage__:
 >
 >  ```alert 'title' 'message'```
+
+> Example
+> 
+> ![alert](https://s4.uupload.ir/files/alert_82hb.gif)
