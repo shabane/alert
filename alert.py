@@ -15,5 +15,5 @@ except:
 nft = Notify()
 nft.title = title
 nft.message = msg
-nft.icon = './notify.png'
+nft.icon = '/opt/alert/notify.png'
 nft.send()
