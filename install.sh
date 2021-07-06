@@ -4,4 +4,4 @@ mkdir /opt/alert
 cp ./alert.py /opt/alert/alert.py
 cp ./notify.png /opt/alert/
 chmod +x /opt/alert/alert.py
-ln /opt/alert/alert.py /bin/alert
+ln -s /opt/alert/alert.py /bin/alert
