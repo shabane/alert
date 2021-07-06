@@ -1,11 +1,20 @@
 #!/bin/python3
 from notifypy import Notify
-import sys
+import argparse
+
+hlp_title = '''title of message'''
+hlp_msg = ''' the message of notify'''
+
+# define cli
+cli = argparse.ArgumentParser(description='send a system notify')
+cli.add_argument('title', type=str, help=hlp_title)
+cli.add_argument('msg', type=str, help=hlp_msg)
+args = cli.parse_args()
 
 # get the message and title from cli
 try:
-    title = sys.argv[1]
-    msg = sys.argv[2]
+    title = args.title
+    msg = args.msg
 except:
     print('Usage:')
     print('\talert [title] [message]')
