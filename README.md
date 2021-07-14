@@ -4,7 +4,7 @@
 
 ---
 
-> __how to install__
+##### __how to install__
 >
 >```bash
 >git clone https://github.com/shabane/alert.git && cd alert
@@ -13,15 +13,16 @@
 
 
 
-> __Usage__:
+#### __Usage__:
 >
 >  ```alert 'title' 'message'```
 
-> Example
+#### Example
 > 
 > ![alert](https://s4.uupload.ir/files/alert_pwht.gif)
 
-> the __reasen__ that made me to write this was that i need to notify my self whenever a script run automaticly, so i decided to write a this.
+> **T**he __reasen__ that made me to write this was that i need to notify my self whenever a script run automaticly, so i decided to write this.
+> 
 > my script to backup is this:
 
 ```
