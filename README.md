@@ -19,7 +19,7 @@
 
 > Example
 > 
-> ![alert](https://s4.uupload.ir/files/alert_82hb.gif)
+> ![alert](https://s4.uupload.ir/files/alert_pwht.gif)
 
 > the __reasen__ that made me to write this was that i need to notify my self whenever a script run automaticly, so i decided to write a this.
 > my script to backup is this:
